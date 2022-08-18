@@ -10,7 +10,6 @@ html {
   --bg-color: #edf2ff;
   --text-color: #121113;
   --text-color-footer: #d4d4d4;
-  --font-family: "fira code";
 }
 
 body.dark {
@@ -19,12 +18,12 @@ body.dark {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: 'fira code';
   background: var(--bg-color);
   color: var(--text-color);
 }
 
-@keyframes cursor-blink {
+@keyframes opacity {
   0% {
     opacity: 0%;
   }
@@ -38,5 +37,16 @@ body {
 
 .box h1::after {
   content: "_";
-  animation: cursor-blink 1.5s steps(2) infinite;
+  animation: opacity 1.5s steps(2) infinite;
+}
+
+a {
+  color: var(--text-color);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+ 
+a:hover {
+  color: rgba(145, 144, 144, 0.411);
+  opacity: 1.5s;
 }
