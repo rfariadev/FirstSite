@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +16,37 @@ body.dark {
 }
 
 body {
-  font-family: 'fira code';
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background: var(--bg-color);
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 36px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  margin: 10px;
+}
+
+p {
+  display: flex;
+  align-items: center;
 }
 
 @keyframes opacity {
@@ -40,13 +66,20 @@ body {
   animation: opacity 1.5s steps(2) infinite;
 }
 
-a {
-  color: var(--text-color);
+svg {
+  height: 28px;
+  width: 28px;
+  color: white;
   transition: all 0.5s;
   cursor: pointer;
 }
- 
-a:hover {
-  color: rgba(145, 144, 144, 0.411);
+
+svg.email {
+  height: 16px;
+  align-items: center;
+}
+
+svg:hover {
+  color: rgb(155, 155, 155);
   opacity: 1.5s;
 }
