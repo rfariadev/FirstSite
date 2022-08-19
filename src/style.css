@@ -16,7 +16,7 @@ body.dark {
 }
 
 body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: monospace;
   background: var(--bg-color);
   color: var(--text-color);
   display: flex;
