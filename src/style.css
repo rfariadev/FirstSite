@@ -25,6 +25,17 @@ body {
   height: 100vh;
 }
 
+div.nav a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+div.nav a:hover {
+  color: rgb(155, 155, 155);
+  opacity: 1.5s;
+}
+
 h1 {
   font-size: 42px;
   margin-bottom: 36px;

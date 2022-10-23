@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(./coffee.png);
+  font-family: sans-serif;
+  padding: 20px
+}
+
+div {
+  background-color: #deb887;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px
+}
+
+.menu {
+  max-width: 500px;
+  min-width: 280px;
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+
+h1,
+h2,
+p {
+  text-align: center
+}
+
+h1,
+h2 {
+  font-family: Impact, serif
+}
+
+h1 {
+  font-size: 40px
+}
+
+h2 {
+  font-size: 30px
+}
+
+hr {
+  border-color: brown;
+  background-color: brown;
+  height: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+hr.footer {
+  margin-bottom: 10px
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+article>hr {
+  border-color: #deb887;
+  background-color: transparent;
+  height: 1px;
+  margin-top: 1px
+}
+
+section>article>p {
+  display: inline-block
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 25px
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000
+}
+
+a:visited {
+  color: brown
+}
+
+.dessert,
+.flavor {
+  text-align: left;
+  width: 50%
+}
+
+.price {
+  text-align: right;
+  width: 48%
+}
+
+.established {
+  font-style: italic
+}
+
+footer {
+  margin-top: 35px
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 15px
+}
